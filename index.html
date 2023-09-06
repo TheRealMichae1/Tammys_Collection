@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAMMY'S COLLECTION</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+    
+    <nav>
+        <div class="header">
+        <header>tammy's <span>collection</span> </header>
+        
+        
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">
+          <h4></h4>
+          <h4></h4>
+          <h4></h4>
+        </button>
+             
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="#">Dashboard</a>
+            <a href="#">Tools</a>
+            <a href="#">Contacts</a>
+            <a href="#">About</a>
+            <a href="#">FAQ</a>
+            <a href="#">Developer</a>
+              <a href="signup.html">Signup</a>
+                <a href="login.html">Login</a>
+                </div>
+        
+        </div>
+        
+          </div>
+         <div> <h2>who are we?</h2>
+          <p><li>Tammy"s collection is an online shopping store for women makeup products.</li>
+             <li>It is a beauty store made simple and cheaper to meet the standard of every woman.</li> </p>
+          <h2>what we do</h2>
+          <p>We sell women related products icluding cosmetics.</p>
+          <h2>how simple</h2>
+          <p><li>Customers can buy products from their home. This platform is simple to acces.</li>
+            <li>It also include the customer care service as well as social media platforms.</li>
+          </p>
+          <h2>payment methods</h2>
+          <p><li>Tammy's collection have different payment methodes </li>
+            <li>includind VISA, PAYPAL AND MOBILE MONEY</li>.</p>
+        </div>
+        </nav>
+        </body>
+        <script>
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+
+</body>
+</html>
