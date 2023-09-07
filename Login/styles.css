@@ -1,0 +1,123 @@
+.dropdown {
+    background-color: grey;
+    
+    padding: 16px;
+    font-size: 15px;
+   
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    
+    
+  }
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: grey;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 160px;
+    
+    z-index: 1;
+    
+  }
+  .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: black;
+   
+  }
+   h4 {
+    width: 15px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+  }
+  .dropdown-content a:hover {
+      background-color: grey;
+  }
+  .show {
+      display:block;
+      
+  }
+  .header {
+      background-color: #2c3e60;
+      height: 50px;
+      }
+      body {
+      
+      padding: 0;
+      margin: 0;
+      background-color: rgba(200,140,0,0.1);
+      background-size: cover;
+      font-family: Arial;
+  }
+  header {
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-family: Arial;
+      font-size: 18px;
+      
+      padding: 0px;
+      margin: 0px;
+      width: 250px;
+      text-align: right;
+      
+     
+  }
+  h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  li, p {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-indent: 0ch;
+    text-shadow: #2c3e60;
+    text-align-last: auto;
+    padding-inline-start: 0cap;
+    padding: 9px;
+    margin: 1px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
